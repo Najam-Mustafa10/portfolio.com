@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Najam Mustafa — Full Stack Developer portfolio showcasing web development skills, projects, and services." />
+    <meta name="author" content="Najam Mustafa" />
+    <meta name="theme-color" content="#070d18" />
+    <title>Najam Mustafa | Full Stack Developer</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#home">Skip to main content</a>
+
+    <!-- Navigation -->
+    <header class="site-header" id="top">
+      <nav class="navbar" aria-label="Primary">
+        <a class="logo" href="#home">Najam Mustafa</a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav-links" id="primary-nav">
+          <li><a class="nav-link is-active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="home">
+        <div class="hero__glow hero__glow--one" aria-hidden="true"></div>
+        <div class="hero__glow hero__glow--two" aria-hidden="true"></div>
+        <div class="hero__grid" aria-hidden="true"></div>
+
+        <div class="container hero__layout">
+          <div class="hero__copy">
+            <p class="eyebrow">Hello, I'm</p>
+            <h1>Najam Mustafa</h1>
+            <p class="hero__role">
+              <span class="role-text" data-role-text>Full Stack Developer</span>
+            </p>
+            <p class="hero__intro">
+              I'm a Full Stack Developer passionate about building modern, responsive,
+              and user-friendly web applications. I enjoy creating seamless experiences
+              using frontend and backend technologies.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#projects">View My Work</a>
+              <a class="btn btn--ghost" href="#contact">Contact Me</a>
+            </div>
+            <div class="social-row">
+              <a
+                class="icon-link"
+                href="https://github.com/najam-mustafa10"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub profile (najam-mustafa10)"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.58 9.58 0 0 1 12 6.84a9.58 9.58 0 0 1 2.5.34c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.86v2.76c0 .26.18.58.69.48A10 10 0 0 0 12 2Z" />
+                </svg>
+              </a>
+              <a
+                class="icon-link"
+                href="https://www.linkedin.com/in/Najam Mustafa"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn profile (Najam Mustafa)"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 4a1.96 1.96 0 1 0 0 3.92 1.96 1.96 0 0 0 0-3.92ZM20.44 20h-3.37v-5.6c0-1.34-.02-3.06-1.86-3.06-1.87 0-2.16 1.46-2.16 2.96V20h-3.37V8.5h3.23v1.57h.05c.45-.85 1.54-1.75 3.17-1.75 3.39 0 4.01 2.23 4.01 5.13V20Z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero__portrait reveal">
+            <div class="portrait-frame">
+              <img
+                src="images/profile.jpeg"
+                alt="Professional profile placeholder for Najam Mustafa"
+                width="400"
+                height="520"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="container">
+          <header class="section-heading reveal">
+            <p class="eyebrow">Introduction</p>
+            <h2>About Me</h2>
+          </header>
+
+          <div class="about-grid">
+            <div class="about-photo reveal">
+              <img
+                src="images/profile.jpeg"
+                alt="Portrait placeholder of Najam Mustafa"
+                width="480"
+                height="560"
+              />
+            </div>
+            <div class="about-copy reveal">
+              <h3>Najam Mustafa</h3>
+              <p class="role-badge">Full Stack Developer</p>
+              <p>
+                I am a Full Stack Developer focused on building modern web applications
+                that are clear, responsive, and reliable. I care about thoughtful frontend
+                design, structured backend logic, and well-organized databases that keep
+                products easy to maintain as they grow.
+              </p>
+              <p>
+                My development interests include interface design, client-side interactivity,
+                server-side application logic, relational databases, and assembling complete
+                web experiences from layout through data management.
+              </p>
+              <ul class="interest-list">
+                <li>Web development</li>
+                <li>Frontend design</li>
+                <li>Backend development</li>
+                <li>Databases</li>
+                <li>Modern web applications</li>
+              </ul>
+              <div class="hero__actions">
+                <a class="btn btn--primary" href="resume/Najam-Mustafa-CV.pdf" download>Download CV</a>
+                <a class="btn btn--ghost" href="#contact">Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section section--alt" id="skills">
+        <div class="container">
+          <header class="section-heading reveal">
+            <p class="eyebrow">Capabilities</p>
+            <h2>Technical Skills</h2>
+          </header>
+
+          <div class="skill-groups">
+            <article class="glass-card reveal">
+              <h3>Frontend Development</h3>
+              <div class="skill-grid">
+                <div class="skill-card">
+                  <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+                  <p>HTML5</p>
+                </div>
+                <div class="skill-card">
+                  <span class="skill-icon" aria-hidden="true">#</span>
+                  <p>CSS3</p>
+                </div>
+                <div class="skill-card">
+                  <span class="skill-icon" aria-hidden="true">JS</span>
+                  <p>JavaScript</p>
+                </div>
+                <div class="skill-card">
+                  <span class="skill-icon" aria-hidden="true">B</span>
+                  <p>Bootstrap</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="glass-card reveal">
+              <h3>Backend Development</h3>
+              <div class="skill-grid">
+                <div class="skill-card">
+                  <span class="skill-icon" aria-hidden="true">PHP</span>
+                  <p>PHP</p>
+                </div>
+                <div class="skill-card">
+                  <span class="skill-icon" aria-hidden="true">SQL</span>
+                  <p>MySQL</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="glass-card reveal">
+              <h3>Other Skills</h3>
+              <div class="skill-grid">
+                <div class="skill-card">
+                  <span class="skill-icon" aria-hidden="true">RWD</span>
+                  <p>Responsive Web Design</p>
+                </div>
+                <div class="skill-card">
+                  <span class="skill-icon" aria-hidden="true">DB</span>
+                  <p>Database Management</p>
+                </div>
+                <div class="skill-card">
+                  <span class="skill-icon" aria-hidden="true">Git</span>
+                  <p>Git and GitHub</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="projects">
+        <div class="container">
+          <header class="section-heading reveal">
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects</h2>
+          </header>
+
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <img src="images/project1.png" alt="University Management System interface concept" width="640" height="400" />
+              </div>
+              <div class="project-card__body">
+                <h3>University Management System</h3>
+                <p>
+                  A web-based university management application for managing students,
+                  teachers, departments, courses, and enrollments.
+                </p>
+                <ul class="tag-list">
+                  <li>PHP</li>
+                  <li>MySQL</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+                <div class="project-card__actions">
+                  <a class="btn btn--small" href="https://github.com/najam-mustafa10" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  <a class="btn btn--small btn--ghost" href="#projects">Live Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <img src="images/project2.png" alt="FarmLog agriculture management system interface concept" width="640" height="400" />
+              </div>
+              <div class="project-card__body">
+                <h3>FarmLog — Agriculture Management System</h3>
+                <p>A web application designed to manage agricultural activities and farm work records.</p>
+                <ul class="tag-list">
+                  <li>PHP</li>
+                  <li>MySQL</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+                <div class="project-card__actions">
+                  <a class="btn btn--small" href="https://github.com/najam-mustafa10" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  <a class="btn btn--small btn--ghost" href="#projects">Live Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <img src="images/project3.png" alt="Glowora Cosmetics e-commerce concept mockup" width="640" height="400" />
+              </div>
+              <div class="project-card__body">
+                <h3>Glowora Cosmetics</h3>
+                <p>An e-commerce website concept for displaying cosmetic products and managing online shopping.</p>
+                <ul class="tag-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>PHP</li>
+                  <li>MySQL</li>
+                </ul>
+                <div class="project-card__actions">
+                  <a class="btn btn--small" href="https://github.com/najam-mustafa10" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  <a class="btn btn--small btn--ghost" href="#projects">Live Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <img src="images/project4.png" alt="Room Decore wellness application concept" width="640" height="400" />
+              </div>
+              <div class="project-card__body">
+                <h3>Roomify</h3>
+                <p>Roomify – Transform your space into your dream home with stylish furniture and modern interior solutions.</p>
+                <ul class="tag-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+                <div class="project-card__actions">
+                  <a class="btn btn--small" href="https://github.com/najam-mustafa10" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  <a class="btn btn--small btn--ghost" href="#projects">Live Demo</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="section section--alt" id="services">
+        <div class="container">
+          <header class="section-heading reveal">
+            <p class="eyebrow">What I can build</p>
+            <h2>Services</h2>
+            <p class="section-note">Academic and personal project capabilities — not a claim of client work history.</p>
+          </header>
+
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <div class="service-icon" aria-hidden="true">FS</div>
+              <h3>Full Stack Web Development</h3>
+              <p>End-to-end websites that connect interface, application logic, and data storage into one coherent product.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-icon" aria-hidden="true">RW</div>
+              <h3>Responsive Website Development</h3>
+              <p>Layouts that adapt cleanly across phones, tablets, and desktops with readable typography and touch-friendly controls.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-icon" aria-hidden="true">FE</div>
+              <h3>Frontend Development</h3>
+              <p>Semantic HTML, modern CSS, and JavaScript for interfaces that feel clear, fast, and easy to use.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-icon" aria-hidden="true">BE</div>
+              <h3>Backend Development</h3>
+              <p>Server-side application structure with PHP for forms, records, and the logic that keeps a site functional.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-icon" aria-hidden="true">DB</div>
+              <h3>Database Integration</h3>
+              <p>MySQL-backed data models for storing and retrieving information such as users, records, and product details.</p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-icon" aria-hidden="true">UI</div>
+              <h3>Website UI Design</h3>
+              <p>Clean visual systems, spacing, and component layouts that keep a website professional and consistent.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="section" id="education">
+        <div class="container">
+          <header class="section-heading reveal">
+            <p class="eyebrow">Background</p>
+            <h2>Education</h2>
+            <p class="section-note">Replace the placeholders below with your official details.</p>
+          </header>
+
+          <ol class="timeline">
+            <li class="timeline__item reveal">
+              <div class="timeline__marker" aria-hidden="true"></div>
+              <article class="timeline__card">
+                <p class="timeline__label">Degree</p>
+                <h3>BS Software Engineering</h3>
+                <p class="timeline__meta">Arid University Sahiwal campus</p>
+                <p class="timeline__year">Graduation year: Continous 5th semester</p>
+              </article>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section section--alt" id="contact">
+        <div class="container">
+          <header class="section-heading reveal">
+            <p class="eyebrow">Let's connect</p>
+            <h2>Contact</h2>
+          </header>
+
+          <div class="contact-grid">
+            <aside class="contact-panel reveal">
+              <h3>Contact details</h3>
+              <p>Update these placeholders with your live profiles before sharing the site.</p>
+              <ul class="contact-list">
+                <li>
+                  <span>Email</span>
+                  <a href="mailto:najam.stu.pk@gmail.com">najam.stu.pk@gmail.com</a>
+                </li>
+                <li>
+                  <span>GitHub</span>
+                  <a href="https://github.com/najam-mustafa10" target="_blank" rel="noopener noreferrer">github.com/najam-mustafa10</a>
+                </li>
+                <li>
+                  <span>LinkedIn</span>
+                  <a href="https://www.linkedin.com/in/Najam Mustafa" target="_blank" rel="noopener noreferrer">linkedin.com/in/Najam Mustafa</a>
+                </li>
+              </ul>
+            </aside>
+
+            <form class="contact-form reveal" id="contact-form" novalidate>
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required />
+                <p class="field-error" data-error-for="name"></p>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+                <p class="field-error" data-error-for="email"></p>
+              </div>
+              <div class="field">
+                <label for="subject">Subject</label>
+                <input id="subject" name="subject" type="text" required />
+                <p class="field-error" data-error-for="subject"></p>
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+                <p class="field-error" data-error-for="message"></p>
+              </div>
+              <button class="btn btn--primary" type="submit">Send Message</button>
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+              <p class="form-disclaimer">
+                This form validates on the client only. Actual email delivery requires a backend or email service.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="logo">Najam Mustafa</p>
+          <p>Full Stack Developer</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="social-row">
+          <a class="icon-link" href="https://github.com/najam-mustafa10" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.58 9.58 0 0 1 12 6.84a9.58 9.58 0 0 1 2.5.34c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.86v2.76c0 .26.18.58.69.48A10 10 0 0 0 12 2Z" />
+            </svg>
+          </a>
+          <a class="icon-link" href="https://www.linkedin.com/in/Najam Mustafa" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 4a1.96 1.96 0 1 0 0 3.92 1.96 1.96 0 0 0 0-3.92ZM20.44 20h-3.37v-5.6c0-1.34-.02-3.06-1.86-3.06-1.87 0-2.16 1.46-2.16 2.96V20h-3.37V8.5h3.23v1.57h.05c.45-.85 1.54-1.75 3.17-1.75 3.39 0 4.01 2.23 4.01 5.13V20Z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <p class="copyright">&copy; <span id="year"></span> Najam Mustafa. All rights reserved.</p>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Back to top">
+      <span aria-hidden="true">↑</span>
+    </button>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
